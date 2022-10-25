@@ -5,7 +5,7 @@ def find_max(numbers):
     highest = max(numbers)
     return highest
     
-array_one = [44,66,77,3444,555,7673,32434]
+array_one = [1000,2000,3000,4000,5000,4500,3500,2500,1500,500,0]
 print(find_max(array_one))
 
 def second_largest(numbers):
@@ -20,4 +20,4 @@ def k_largest(numbers,index):
     return numbers[k] 
 
 print(array_one)
-print(k_largest(array_one,3))
+print(k_largest(array_one,11))
